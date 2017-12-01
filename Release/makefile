@@ -142,7 +142,7 @@ all: Ultrasonic_Communication.out
 Ultrasonic_Communication.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM Linker'
-	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --advice:power="all" -g --gcc --define=ccs="ccs" --define=PART_TM4C123GH6PM --define=TARGET_IS_TM4C123_RB1 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --ual -z -m"timers_ccs.map" --stack_size=256 --heap_size=0 -i"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/lib" -i"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" -i"/Users/Devansh/ti/TivaWare_C_Series-2.1.3.156/inc" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Ultrasonic_Communication_linkInfo.xml" --rom_model -o "Ultrasonic_Communication.out" $(ORDERED_OBJS)
+	"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --advice:power=all --gcc --define=ccs="ccs" --define=PART_TM4C123GH6PM --define=TARGET_IS_TM4C123_RB1 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --ual -z -m"timers_ccs.map" --stack_size=256 --heap_size=0 -i"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/lib" -i"/Applications/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Ultrasonic_Communication_linkInfo.xml" --rom_model -o "Ultrasonic_Communication.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	@$(MAKE) --no-print-directory post-build
