@@ -1,8 +1,8 @@
 # Ultrasonic-Audio-Communication
 Unidirectional communication protocol through ultrasonic audio waves (> 20 kHz) from a master device and performing FFT on the slave (TM4C123 - ARM Cortex M4)
 
-<a href="https://youtu.be/3LHPGdFfbrE" target="_blank">
-<img src="https://user-images.githubusercontent.com/10454251/34544166-a5583cac-f0b2-11e7-85a2-6ca3a7118131.gif" width="40%" alt="Click for Music Player Demo video">
+<a href="https://youtu.be/LJVCiFTAqPg" target="_blank">
+<img src="https://user-images.githubusercontent.com/10454251/34544166-a5583cac-f0b2-11e7-85a2-6ca3a7118131.gif" width="40%" alt="Click for Demo Video">
 <img src="https://i.imgur.com/HijxXiJ.jpg" alt="Diagram" width="55%"/>
 </a>
 
